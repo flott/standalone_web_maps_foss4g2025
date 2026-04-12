@@ -2,3 +2,10 @@ pmtiles extract https://build.protomaps.com/20260411.pmtiles sources/waiheke_isl
   --minzoom=10 \
   --maxzoom=16 \
   --bbox=174.8,-37.0,175.2,-36.7
+
+pmtiles extract \
+--minzoom=10 \
+--maxzoom=16 \
+--bbox=174.8,-37.0,175.2,-36.7 \
+https://download.mapterhorn.com/planet.pmtiles \
+sources/waiheke_island_terrain.pmtiles
